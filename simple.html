@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Drive bomber jacket &mdash;  Delikatessen</title>
+    <meta property="og:title" content="Drive bomber jacket">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Delikatessen"> 
+    <meta property="og:image" content="http://delikatessen.jp/wp-content/themes/szota.biz_delikatessen/images/delikatessen_fb.jpg"> 
+    <meta property="og:description" content="Delikatessen is an Amsterdam-based menswear line that prides itself in using the most refined fabrics that offer supreme comfort and touchability. Founded in 2009 by Andre Lisowski and Stephen Hartog, Delikatessen focuses on well-tailored but effortless garments that combine old craft with a modern approach to design.">
+    <meta name="description" content="Delikatessen is an Amsterdam-based menswear line that prides itself in using the most refined fabrics that offer supreme comfort and touchability. Founded in 2009 by Andre Lisowski and Stephen Hartog, Delikatessen focuses on well-tailored but effortless garments that combine old craft with a modern approach to design.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+  <!--<script src="./lib/mailself.js"></script>  
+  <script>
+    console.log('TEST::START');
+    window.onload = function() {
+
+      var reminder = new MailSelf({'title': 'hello'});
+
+      console.log('window is ready', reminder.query());
+
+
+      console.log('TEST::END');
+    };
+  </script>-->
+
+<!-- PopUpDelivery Pixel -->
+<script>
+  window.mailSelfSettings = {
+    token: '1234'
+  };
+</script>
+<script>(function(){var w=window;var mss=w.MailSelf;if(typeof mss==="function"){console.log('hello mss');mss.initialize(mailSelfSettings);}else{var d=document;var i=w.MailSelf;w.MailSelf=i;function i() {console.log('hello i');mss.initialize(mailSelfSettings);};function l(){var s=d.createElement('script');s.onload = function(){window.MailSelf = new MailSelf({'title': 'hello'});};s.type='text/javascript';s.async=true;s.src='./lib/mailself.js?' + Date.now();var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>		
+<!-- End PopUpDelivery Pixel -->
+
+  <a class="button btn light-button small-button" href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='file:///Users/chris/projects/stuff/jshome/mailself/lib/mailself.js?' + Date.now();})();">Send Link</a>
+  <a href onclick="clickTest()">clickTest()</a>
+  <script>
+  function clickTest () {
+    console.log('query', window.MailSelf.query());
+  }
+  </script>
+  </body>
+</html>

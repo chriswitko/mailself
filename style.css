@@ -1,0 +1,139 @@
+body {
+  font-family: -apple-system, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji";
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: 40px auto 0 auto;
+  padding: 20px;
+}
+
+p {
+  color: #434242;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 0.9em;
+  font-weight: 400;
+  line-height: 1.8em;
+}
+
+a:link, a:visited {
+  color: #3F51B5;
+  text-decoration: none;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+a:hover {
+  background-color: #fde100;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+h1 {
+  color: black;
+  background-color: #fff200;
+  display: inline-block;
+  letter-spacing: -1px;
+  margin: 0;
+  line-height: 20px;
+  padding: 20px 20px 0 20px;
+  margin-bottom: 40px;
+  font-size: 50px;
+}
+
+h2 {
+  color: black;
+  background-color: #fff200;
+  display: inline-block;
+  letter-spacing: -1px;
+  margin: 0;
+  line-height: 10px;
+  padding: 10px 10px 0 10px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.columns {
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+  margin: 24px 0;
+}
+
+.columns > div {
+	width: 50%;
+}
+
+.columns > div:first-child {
+	margin-right: 20px;
+}
+
+@media (max-width: 500px) {
+  .container {
+    max-width: 700px;
+    margin: 20px auto 0 auto;
+    padding: 10px 20px;
+  }
+
+  h1 {
+    font-size: 8.8vw;
+    line-height: 3.5vw;
+    margin-bottom: 20px;
+  }
+
+  .columns {
+    display: block;
+    margin: 0;
+  }
+
+  .columns > div {
+  	width: 100%;
+  }
+
+  .columns > div:first-child {
+  	margin-right: 0px;
+    margin-bottom: 40px;
+  }
+
+  .columns > div:last-child {
+    margin-bottom: 40px;
+  }
+
+  #webfont, #fallback {
+    margin: 0;
+  }
+}
+
+.sample {
+  font-weight: normal;
+}
+
+.output {
+  position: relative;
+  min-height: 20px;
+}
+
+.overlap-font {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 8px;
+  border-top: 2px solid #fde100;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+hr {
+  background: red;
+}
+
